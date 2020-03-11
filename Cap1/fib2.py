@@ -2,7 +2,7 @@
 
 Evitar uma recursao infinita é responsabilidade do programador, e não do compilador pu do interpretador.
 No exemplo anterior o erro ocorria porque nào especificamos um caso de base. Em uma funcao recursiva
-um caso de base serve como ponto de partida
+um caso de base serve como ponto de parada
 
 '''
 def fib2(n: int) -> int:
